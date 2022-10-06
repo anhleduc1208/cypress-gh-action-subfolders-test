@@ -12,6 +12,7 @@ jobs:
         run: npm start &
 
       # Cypress has its own package.json in folder "e2e"
+      # trigger
       - name: Install Cypress and run tests
         uses: cypress-io/github-action@v1
         with:
